@@ -9,6 +9,12 @@ public class QuickSort {
 		// TODO Auto-generated method stub
 
 	}
+	/**
+	 * 
+	 * @param arr
+	 * @param low
+	 * @param high
+	 */
 	public void Sort(int[] arr,int low ,int high) {
 		// TODO Auto-generated method stub
 		if(low<high){
@@ -18,6 +24,13 @@ public class QuickSort {
 		}
 		
 	}
+	/**
+	 * 
+	 * @param arr
+	 * @param low
+	 * @param high
+	 * @return 
+	 */
 	public int Parttion(int[] arr,int low ,int high) {
 		// TODO Auto-generated method stub
 		int key=arr[low];
